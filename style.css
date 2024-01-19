@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(19deg, #fabf00 50%,  #18ddfe 50%);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+#text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: first baseline;
+}
+#interaction{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 25px;
+}
+#interaction input{
+    padding: 11px;
+    font-size: 18px;
+    margin-bottom: 18px;
+    border-radius: 6px;
+    border: 2px solid gainsboro;
+}
+#buttons{
+    display: flex;
+    gap: 20px;
+}
+#buttons button{
+    padding: 9px;
+    background-color: orange;
+    border-radius: 7px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+#buttons button:hover{
+    transform: scale(1.2);
+}
+#imageCard {
+    width: 300px;
+}
+#imageCard img{
+    width: 300px;
+}

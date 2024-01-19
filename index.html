@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/logo_numero_secreto(1).png" type="image/x-icon">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="interaction">
+            <div id="text"> 
+                <h1 id="title">Jogo do número aleátorio</h1>
+                <p id="desctiption">escolha um número de 1 a 100</p>
+            </div>
+            <form id="numbersLimit">
+                <input class="checkboxs" name="radios" id="radio1" value="10" type="radio">
+                <label for="radio1">10</label>
+
+                <input class="checkboxs" name="radios" id="radio2" value="100"type="radio">
+                <label for="radio2">100</label>
+
+                <input class="checkboxs" name="radios" id="radio3" value="1000"type="radio">
+                <label for="radio3">1000</label>
+            </form>
+            <input id="input" type="text">
+            <div id="buttons">
+                <button id="tentar">Enviar</button>
+                <button id="retry">Tentar Novamente</button>
+            </div>
+        </div>
+        <div id="imageCard">
+            <img src="./img/logo_numero_secreto(1).png" alt="Logo numero secreto">
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
